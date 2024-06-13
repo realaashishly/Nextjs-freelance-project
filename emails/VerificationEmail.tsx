@@ -1,7 +1,6 @@
 import * as React from "react";
 import {
     Html,
-    Button,
     Head,
     Font,
     Body,
@@ -19,7 +18,7 @@ interface VerificationEmailProps {
 
 export default function VerificationEmail({
     username,
-    verifyCode,
+    verifyCode
 }: VerificationEmailProps) {
     return (
         <Html lang='en'>
